@@ -7,8 +7,8 @@ pip install -r requirements.txt
 
 
 cd demo
-sh make_synthetic_data.sh
-sh make_synthetic_model.sh
+sh ./demo/make_synthetic_data.sh
+sh ./demo/make_synthetic_model.sh
 ```
 
 Open jupyter notebook and run protas_demo.ipyb
