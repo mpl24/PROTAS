@@ -28,7 +28,7 @@ This software is released under the **Academic Software License** (© 2025 UCLA)
 - **No warranty:** The Software is provided *“as is”* with no warranty of any kind.
 - **Publication requirement:** Any academic or scholarly publication arising from the use of this Software must include the following acknowledgment:
 
-  > The Software used in this research was created by Mara Pleasure and the BAIR Lab of UCLA. © 2025 UCLA.
+  > The Software used in this research was created by Mara Pleasure at the BAIR Lab of UCLA. © 2025 UCLA.
 
 - **Commercial use:** Commercial entities must contact [software@tdg.ucla.edu](mailto:software@tdg.ucla.edu) for licensing opportunities.
 
