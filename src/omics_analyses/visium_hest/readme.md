@@ -63,7 +63,7 @@ python spatial_dge.py \
 
 **Method:**
 - Linear mixed model (LMM) with spatial covariance kernel
-- Gaussian RBF kernel: `K(x,y) = exp(-||x-y||²/(2σ²))`
+- Gaussian RBF kernel
 - Length scale optimization per sample
 - FDR correction (Benjamini-Hochberg)
 
@@ -101,12 +101,6 @@ where:
 ```
 
 ### Spatial Kernel
-
-Radial basis function (RBF) with optimized length scale:
-
-```python
-K(x_i, x_j) = exp(-||x_i - x_j||² / (2 * σ²))
-```
 
 Length scales tested: [20, 40, 60, 80, 100, 120] pixels
 
