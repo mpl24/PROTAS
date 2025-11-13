@@ -1,0 +1,1 @@
+python synthetic_data.py --save_root './demo/synthetic_data' --seed 24 --num_to_generate 5

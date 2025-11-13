@@ -1,0 +1,1 @@
+python ./src/PROTAS_model/generate_synthetic_model_weights_for_demo.py --output_path ./demo/model_weights.pth
