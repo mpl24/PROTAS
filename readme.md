@@ -32,4 +32,4 @@ This software is released under the **Academic Software License** (© 2025 UCLA)
 
 - **Commercial use:** Commercial entities must contact [software@tdg.ucla.edu](mailto:software@tdg.ucla.edu) for licensing opportunities.
 
-Please see the [LICENSE](./LICENSE) file for the full terms.
+Please see the [LICENSE](./license.txt) file for the full terms.
