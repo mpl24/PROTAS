@@ -9,13 +9,13 @@ Takes per-patch RS predictions and extracts spatial features for downstream anal
 
 ```bash
 # Extract features
-python extract_features.py \
+python ./slide_level_features/extract_per_slide_features.py \
     --dataframe_root /path/to/predictions/ \
     --clinical_data /path/to/clinical.csv \
     --save_root /path/to/output/
 
 # Extract cancer features
-python extract_cancer_features.py \
+python ./tumor_features/extract_tumor_features.py \
     --cancer_mask_root /path/to/cancer_masks/ \
     --tissue_mask_root /path/to/tissue_masks/ \
     --stroma_info_within_cancer_csv /path/to/stroma_info.csv \
@@ -29,11 +29,11 @@ python extract_cancer_features.py \
 - One CSV per slide: `slide_name.csv`
 
 ## Output
-basic_features.csv - RS prevalence and distribution
-hotspot_features.csv - Spatial clustering patterns
-distance_features.csv - RS by distance from cancer
-hotspot_graph_features.csv - Network topology
-cancer_features.csv - Cancer morphology
+basic_features - RS prevalence and distribution
+hotspot_features - Spatial clustering patterns
+distance_features - RS by distance from cancer
+hotspot_graph_features - Network topology
+cancer_features - Cancer morphology
 
 ## Key Features
 Basic: mean_prob, rs_pos_percent, entropy_prob
