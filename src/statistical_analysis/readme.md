@@ -8,7 +8,7 @@ Tools for Cox proportional hazards regression, feature normalization, model comp
 
 ## Contents
 
-### 1. Survival Analysis (`cox_regression.py`)
+### 1. Survival Analysis (`cox_ph.py`)
 
 Cox regression with bootstrapped confidence intervals and model comparison.
 
