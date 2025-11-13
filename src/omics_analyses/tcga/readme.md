@@ -1,6 +1,6 @@
 # TCGA-PRAD Analysis
 
-Differential gene expression analysis comparing high vs low reactive (RS) in TCGA-PRAD cohort.
+Differential gene expression analysis comparing high vs low reactive stroma (RS) in TCGA-PRAD cohort.
 
 ## Overview
 Uses PROTAS slide-level features to stratify TCGA-PRAD samples, then performs DESeq2 analysis to identify RS-associated genes and pathways.
